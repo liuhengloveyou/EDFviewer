@@ -1,32 +1,33 @@
-# Prerequisites
-*.d
+.DS_Store
+.thumbs.db
+node_modules
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Quasar core related directories
+.quasar
+/dist
+/quasar.config.*.temporary.compiled*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Cordova related directories and files
+/src-cordova/node_modules
+/src-cordova/platforms
+/src-cordova/plugins
+/src-cordova/www
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Capacitor related directories and files
+/src-capacitor/www
+/src-capacitor/node_modules
 
-# Fortran module files
-*.mod
-*.smod
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
-# Executables
-*.exe
-*.out
-*.app
+# local .env files
+.env.local*
